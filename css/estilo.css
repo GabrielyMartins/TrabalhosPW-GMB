@@ -1,0 +1,75 @@
+
+body{ 
+    background-color: #E6E6FA;
+}
+#divTodo{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+#divTopo{
+    background-color: white;
+    height: auto;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#divBaixo{
+    height: auto;
+    display: flex;
+}
+#divLadoE{
+    background-color: #008b8b;
+    width: 50%;
+    height: auto;
+    padding-left: 25px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 7px;
+
+}
+#divLadoD{
+    background-color: #008080;
+    width: 50%;
+    height: auto;
+    padding-left: 25px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 7px;
+}
+.azul{
+    color: #20B2AA;
+    font-size: 20px;
+}
+.verde{
+    color: #7CFC00;
+    font-size: 17px;
+}
+.tamanho{
+    font-size: 30px;
+}
+.cinza{
+    color: #D3D3D3;
+}
+#divLadoE button{
+    background-color: #7CFC00;
+    border: none;
+    border-radius: 3px;
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+}
+#divLadoD ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#divLadoE button:hover{
+    background-color: #008080;
+    cursor: pointer;
+}
